@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: $font-color;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "ヒラギノ明朝 ProN", sans-serif;
+}
+
+
+
+img {
+  max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.l-inner-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  box-sizing: content-box;
+  @include mq(sp) {
+    padding: 0 15px;
+  }
+}

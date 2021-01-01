@@ -1,0 +1,19 @@
+/* ==================================================
+  l-header
+================================================== */
+.l-header {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    @include mq(sp) {
+      height: 60px;
+    }
+  }
+}

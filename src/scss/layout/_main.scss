@@ -1,0 +1,18 @@
+/* ==================================================
+  l-main
+================================================== */
+.l-main-wrap {
+  padding-top: 70px;
+
+  @include mq(sp) {
+  padding-top: 60px;
+  }
+}
+
+.l-main-section {
+  margin-top: 160px;
+
+  @include mq(sp) {
+    margin-top: 96px;
+  }
+}
